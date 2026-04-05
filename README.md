@@ -23,3 +23,4 @@ Full-stack scaffold for a mobile-first saju and fortune content app.
 - `ARCHITECTURE.md`
 - `PRODUCT_SENSE.md`
 - `SECURITY.md`
+

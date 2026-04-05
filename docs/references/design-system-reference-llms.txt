@@ -1,0 +1,2 @@
+Reference placeholder for design system research notes intended for LLM-friendly consumption.
+Capture typography, spacing, component, and visual language decisions here.

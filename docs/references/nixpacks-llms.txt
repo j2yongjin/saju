@@ -1,0 +1,2 @@
+Reference placeholder for Nixpacks deployment notes intended for LLM-friendly consumption.
+Current plan uses Docker Compose, so this file is optional future reference.

@@ -1,0 +1,2 @@
+Reference placeholder for Python `uv` tool notes intended for LLM-friendly consumption.
+Add environment and dependency management guidance here if the backend adopts `uv`.

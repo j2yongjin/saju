@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dongyangui-sinbiroun-unmyeong-api"
+version = "0.1.0"
+description = "FastAPI backend scaffold for a saju and fortune content app"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "cryptography",
+  "fastapi",
+  "httpx",
+  "pydantic-settings",
+  "psycopg[binary]",
+  "python-dotenv",
+  "sqlalchemy",
+  "uvicorn[standard]"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-asyncio"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
